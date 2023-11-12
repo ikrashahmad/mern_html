@@ -33,6 +33,7 @@ nav{
     color: #058b8c;
     font-family: rubik;
     font-weight: 700;
+    cursor: pointer;
 }
 .last_child a:last-child
 {
@@ -44,6 +45,7 @@ nav{
         display: flex;
         gap: 10px;
         padding: 10px 20px;
+        box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
 
     
 }
@@ -52,7 +54,187 @@ nav{
     background-color: #058b8c;
     color: #c4c4c4;
 }
+/* banner_section */
+.banner_section{
+    padding: 50px 0px;
+    background-image: url(../images/home/banner/bg_banner.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 550px 100%;
+}
+.banner_inner{
+    display: flex;
+align-items: center;
+}
+.banner_inner .left_side{
+    width: 50%;
+    padding: 5px 15px;
+}
+.banner_inner .left_side .badge{
+    background-color: #058B8C;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.banner_inner .left_side .welcome{
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 1rem 0px;
+}
 
+.banner_inner .left_side h2{
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 1rem 0px;
+}
+.banner_inner .left_side span{
+    color: #058B8C;
+}
+.banner_inner .left_side p {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+    margin-bottom: 1rem;
+}
+
+.banner_inner .left_side .bottom_btn .btn_1{
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px #00000033;
+    box-shadow: 3px 4px 10px 0px #00000033 inset;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 2px solid #8D0F11;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #fff;
+    transition: all .5s;
+}
+.banner_inner .left_side .bottom_btn .btn_2 {
+    background: transparent;
+    border: 2px solid #1E1E1E;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #1E1E1E;
+    transition: all 0.2s;
+}
+
+.banner_inner .left_side .bottom_btn .btn_2:hover {
+    background: #8D0F11;
+    color: #fff;
+    box-shadow: 3px 3px 10px 0px #00000033;
+    box-shadow: 3px 4px 10px 0px #00000033 inset;
+    border: none;
+    transition: all .5s;
+    cursor: pointer;
+    border: 2px solid #8D0F11;
+}
+
+.banner_inner .left_side .bottom_btn .btn_1:hover {
+    background: transparent;
+    color: #1E1E1E;
+    border: none;
+    border: 2px solid #1E1E1E;
+    cursor: pointer;
+    box-shadow: none;
+    transition: all .5s;
+}
+.banner_inner .right_side{
+    width: 50%;
+    padding: 5px 15px;
+}
+.banner_inner.right_side .right_image{
+    width: 100%;
+    height: 560px;
+    padding: 20px;
+    background-image: url(../images/home/banner/bg_banner_right.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 70%;
+
+}
+.right_side .right_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:50% ;
+}
+/* section_2 */
+.section_inner{
+    padding: 70px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section_2.section_inner.section_left.section_2_image{
+    width: 100%;
+    height: 560px;
+    padding: 20px;
+    background-image: url(../images/home/elipse.png);
+    background-position: right center;
+    background-size: 100%;
+
+}
+.section_2 .section_inner .section_left .section_2_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+.section_2 .section_inner .section_right .badge_2 {
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.section_2 .section_inner .section_right .badge_2 span{
+    font-family: Rubik;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 71px;
+   letter-spacing: -0.03em;
+   text-align: left;
+   color: #058B8C;
+}
+
+.section_2 .section_inner .section_right p{
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+    padding: 10px 30px;
+}
 /* Footer */
 .outer_footer {
    padding: 60px 0px;
@@ -138,85 +320,7 @@ nav{
 }
 .news_letter button:hover{
     background-color:  #058B8C;
+    cursor: pointer;
     color: #c4c4c4;
 
 }
-/* .outer_footer .footer_column_one p {
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #8F8F8F;
-    margin-top: 1rem;
-}
-
-.footer_column_two {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
-
-.footer_column_two li,
-.footer_column_three li {
-    list-style: none;
-    padding: 15px;
-}
-
-.footer_column_two li a,
-.footer_column_three li a {
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #8F8F8F;
-    text-decoration: none;
-}
-
-.footer_column_two li a:hover,
-.footer_column_three li a:hover {
-    color: #000000;
-    font-weight: 600;
-}
-
-.news_letter {
-    display: flex;
-}
-
-.news_letter input {
-    width: 70%;
-    border: 2px solid rgba(5, 139, 140, 1);
-    border-radius: 50px;
-    height: 45px;
-    padding-left: 1rem;
-}
-
-.news_letter input::placeholder {
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #8F8F8F;
-}
-
-.news_letter button {
-    width: 27%;
-    margin-left: 2px;
-    box-shadow: 3px 3px 10px 0px #00000033;
-    box-shadow: 3px 4px 10px 0px #00000033 inset;
-    background-color: #058B8C;
-    color: #fff;
-    border-radius: 50px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    border: none;
-
-} */
